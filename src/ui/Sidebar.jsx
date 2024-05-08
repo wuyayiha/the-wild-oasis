@@ -8,7 +8,7 @@ const StyledSidebar = styled.aside`
   padding: 3.2rem 2.4rem;
   border-right: 1px solid var(--color-grey-100);
 
-  grid-row: 1 / -1;
+  grid-row: 1 / -1; // 从网格的第一行开始，一直延伸到最后一行，占据了所有行
   display: flex;
   flex-direction: column;
   gap: 3.2rem;

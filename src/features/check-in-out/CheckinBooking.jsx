@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import BookingDataBox from "../../features/bookings/BookingDataBox";
-import useSettings from "../../features/settings/useSettings";
+import { useSettings } from "../settings/useSettings";
 import { useCheckin } from "./useCheckin";
 
 import Row from "../../ui/Row";
